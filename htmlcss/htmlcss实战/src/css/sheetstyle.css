@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font:16px/30px "Times New Roman",Georgia,Serif;
+}
+.wp{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.x{float:left}
+.y{float:right}
+.cl{clear:both}
+
+.heatop span.marg_0{
+	margin: 0;
+}
+
+.heatop{
+	width: 100%;
+	height: 30px;
+	background: rgb(48,48,48);
+	color: rgb(216,216,216);
+	line-height: 30px;
+	
+}
+.heatop span{
+	margin-right: 15px;
+}
+.heatop a{
+	color: rgb(216,216,216);
+	text-decoration: none;
+}
+
+.heatop a:hover{
+	color:#fba
+}
+
