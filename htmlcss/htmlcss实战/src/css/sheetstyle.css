@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	font:16px/30px "Times New Roman",Georgia,Serif;
+	font:14px/24px "Times New Roman",Georgia,Serif;
 }
 .wp{
 	width: 960px;
@@ -37,4 +37,41 @@ body{
 .heatop a:hover{
 	color:#fba
 }
-
+.serch{
+    width: 384px;
+    height: 41px;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+.logos{
+    height: 59px;
+    margin: 15px 0;
+}
+.serch td{
+    height: 41px;
+}
+.serch_l{
+	width:6px;
+	background: url("../images/s_z.jpg") no-repeat;
+}
+.serch_c{
+	width:300px;
+	background: url("../images/s_c.jpg") repeat-x;
+}
+.serch_r{
+	width:78px;
+	background: url("../images/s_r.jpg") no-repeat;
+}
+.button_sc{
+	width:78px;
+	height: 41px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.sc_text{
+	width:300px;
+	height: 25px;
+	line-height: 25px;
+	border: 0;
+}
