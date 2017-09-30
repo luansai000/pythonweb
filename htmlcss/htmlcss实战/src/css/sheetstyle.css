@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	font:14px/24px "Times New Roman",Georgia,Serif;
+	font:18px/30px "Times New Roman",Georgia,Serif;
 }
 .wp{
 	width: 960px;
@@ -41,7 +41,6 @@ body{
     width: 384px;
     height: 41px;
     margin-top: 8px;
-    margin-left: 100px;
 }
 .logos{
     height: 59px;
@@ -71,7 +70,117 @@ body{
 }
 .sc_text{
 	width:300px;
-	height: 25px;
-	line-height: 25px;
+	height: 35px;
+	line-height: 35px;
 	border: 0;
+	margin-top: 3px;
+}
+.tel{
+	    color: darkred;
+    line-height: 25px;
+    font-size: 27px;
+    margin-left: 33px;
+    margin-top: 16px;
+    }
+.menu{
+	background: url(../images/nav_bg.jpg) repeat-x;
+	height: 30px;
+}
+
+.menu li{
+	float: left;
+    list-style: none;
+    margin: 0 24px;
+    line-height: 30px;
+}
+
+.menu a{
+	text-decoration: none;
+	color:#f0f0f0;
+}
+.wp li.ali,li:hover{
+	background: url(../images/nav_hover.jpg) repeat-x;
+	
+}
+/*center*/
+.tile{
+	margin-top: 10px;
+	position: relative;
+	border-bottom: solid 2px darkred;
+	margin-bottom: 10px;
+}
+.tile span{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.tile a
+{
+	color: darkred;
+	text-decoration: none;
+}
+.comdes{
+	width:440px;
+	height:345px;
+	margin-right: 20px;
+}
+
+.comdescon img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.comdescon p{
+	text-indent: 32px;
+	color: #616161;
+	font:14px/16px "微软雅黑"
+}
+.news{
+	width:500px;
+	height: 400px;
+}
+.newsa {
+	line-height: 24px;
+}
+.newsa li{
+	 list-style: none;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 22px;
+	background: url(../images/list_bg.jpg) center left no-repeat;
+}
+.newsa h3{
+	color: #616161;
+	font-weight: normal;
+	margin-left: 10px;
+}
+.newsa span{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	color: #909090;
+}
+.newsa li.a{
+	 background: none;
+    padding: 0;
+    height: 76px;
+
+}
+.newsa li.a img{
+	float:left;
+	 margin: 0 10px 10px 0;
+}
+.news a{
+	text-decoration: none;
+}
+.newsa p{
+    font-size: 12px;
+    color: #888;
+    text-indent: 24px;
+}
+.adnews{
+	width: 100%;
+	height: 300px;
 }
